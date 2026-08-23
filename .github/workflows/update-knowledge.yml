@@ -1,0 +1,57 @@
+name: Update news knowledge index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "aI_knowledge/**/*.md"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news-knowledge-index-main
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Update knowledge index
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.4-mini' }}
+          OPENAI_EMBEDDING_MODEL: ${{ vars.OPENAI_EMBEDDING_MODEL || 'text-embedding-3-small' }}
+          OPENAI_EMBEDDING_DIMENSIONS: ${{ vars.OPENAI_EMBEDDING_DIMENSIONS || '256' }}
+          CANDIDATE_LIMIT: ${{ vars.CANDIDATE_LIMIT || '5' }}
+          CANDIDATE_THRESHOLD: ${{ vars.CANDIDATE_THRESHOLD || '0.65' }}
+          AUTO_SUPERSEDE_CONFIDENCE: ${{ vars.AUTO_SUPERSEDE_CONFIDENCE || '0.90' }}
+        run: python scripts/update_knowledge.py
+
+      - name: Commit generated knowledge files
+        run: |
+          if [[ -z "$(git status --porcelain -- knowledge)" ]]; then
+            echo "Knowledge index is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add knowledge/items.jsonl knowledge/embeddings.jsonl knowledge/latest.json
+          git commit -m "Update AI news knowledge index"
+          git pull --rebase origin main
+          git push origin HEAD:main
