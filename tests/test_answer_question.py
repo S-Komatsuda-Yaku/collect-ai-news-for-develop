@@ -18,8 +18,15 @@ class AnswerQuestionTest(unittest.TestCase):
         self.assertIn("What changed?", question)
 
     def test_question_from_follow_up_removes_ask_command(self):
-        event = {"issue": {}, "comment": {"body": "/ask What about organizations?"}}
-        self.assertEqual(MODULE.question_from_event(event), "What about organizations?")
+        event = {
+            "issue": {"title": "Agent changes", "body": "What changed?"},
+            "comment": {"body": "/ask What about organizations?"},
+        }
+        question = MODULE.question_from_event(event)
+        self.assertIn("Agent changes", question)
+        self.assertIn("What changed?", question)
+        self.assertIn("What about organizations?", question)
+        self.assertNotIn("/ask", question)
 
     def test_rank_candidates_prefers_matching_vector(self):
         items = [

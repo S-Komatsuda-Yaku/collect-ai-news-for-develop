@@ -18,16 +18,12 @@ jobs:
   answer:
     if: >-
       (github.event_name == 'issues' &&
-       contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association) &&
-       (contains(github.event.issue.labels.*.name, 'knowledge-question') ||
-        startsWith(github.event.issue.title, '[Knowledge]'))) ||
+       contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)) ||
       (github.event_name == 'issue_comment' &&
        !github.event.issue.pull_request &&
        github.event.comment.user.type != 'Bot' &&
        contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association) &&
-       startsWith(github.event.comment.body, '/ask') &&
-       (contains(github.event.issue.labels.*.name, 'knowledge-question') ||
-        startsWith(github.event.issue.title, '[Knowledge]')))
+       startsWith(github.event.comment.body, '/ask'))
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:

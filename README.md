@@ -66,8 +66,8 @@ APIキーはRepository Variableやソースコードには保存しないでく�
 ## Phase 2: GitHub IssueからのRAG質問
 
 Issue作成画面で「ナレッジへの質問」テンプレートを選び、質問を投稿してください。
-`knowledge-question` ラベルまたは `[Knowledge]` で始まるタイトルを持つIssueに対して、
-`Answer knowledge question` Actionsが次を実行します。
+テンプレートを使わない通常のIssueでも利用できます。Owner、Member、Collaboratorが
+Issueを作成・編集・再オープンすると、`Answer knowledge question` Actionsが次を実行します。
 
 1. 質問をEmbedding化
 2. `knowledge/latest.json` の有効ナレッジだけを横断検索

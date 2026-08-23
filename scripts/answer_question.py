@@ -41,16 +41,18 @@ ANSWER_SCHEMA: dict[str, Any] = {
 
 def question_from_event(event: dict[str, Any]) -> str:
     issue = event.get("issue") or {}
+    title = str(issue.get("title") or "").strip()
+    issue_body = str(issue.get("body") or "").strip()
+    issue_question = f"{title}\n\n{issue_body}".strip()
     comment = event.get("comment")
     if comment is not None:
         body = str(comment.get("body") or "").strip()
         if not body.startswith("/ask"):
             raise ValueError("Follow-up comments must start with /ask")
-        question = body[len("/ask") :].strip()
+        follow_up = body[len("/ask") :].strip()
+        question = f"元のIssue:\n{issue_question}\n\n追加質問:\n{follow_up}".strip()
     else:
-        title = str(issue.get("title") or "").strip()
-        body = str(issue.get("body") or "").strip()
-        question = f"{title}\n\n{body}".strip()
+        question = issue_question
     if not question:
         raise ValueError("The GitHub Issue question is empty")
     return question[:12000]
