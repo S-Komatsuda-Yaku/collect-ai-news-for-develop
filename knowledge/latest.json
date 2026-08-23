@@ -1,0 +1,1712 @@
+{
+  "active_count": 43,
+  "generated_at": "2026-08-23T06:39:25+00:00",
+  "items": [
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Agent.ai will shut down its standalone service on 2026-08-22.",
+        "Agent.ai says more than 3 million people used the platform.",
+        "Agent.ai is moving its concepts and features to HubSpot Agent Builder.",
+        "Existing agents will not be migrated automatically.",
+        "The migration tool will generate step-by-step instructions for rebuilding agents on HubSpot.",
+        "Users are being given a way to export their data."
+      ],
+      "entities": [
+        "Agent.ai",
+        "HubSpot",
+        "HubSpot Agent Builder"
+      ],
+      "event_date": "2026-08-22",
+      "event_type": "product_release",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_d76afe176df48815ffde",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 5,
+      "source_path": "aI_knowledge/2026/0823.md",
+      "source_ref": "aI_knowledge/2026/0823.md#5",
+      "source_urls": [
+        "https://agent.ai/transition"
+      ],
+      "status": "active",
+      "summary": "Agent.ai said it will end its standalone platform on 2026-08-22 and move its ideas and features into HubSpot Agent Builder. Existing agents will not be auto-migrated; instead, a migration tool will generate instructions for rebuilding them in HubSpot, and export options for user data are being provided.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "Agent.aiが単独サービスを終了、HubSpot Agent Builderへ統合"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "The study combined Glassdoor employee reviews, earnings-call transcripts, AI investment announcements, and layoff announcements.",
+        "Employee sentiment toward AI is strongly associated with company productivity.",
+        "AI-related layoff announcements are associated with a large decline in employee sentiment toward AI.",
+        "Executives' optimistic statements about AI did not consistently show a significant relationship with productivity.",
+        "The underlying research is a preprint based on observational data from 2021 to 2025.",
+        "The evidence shows correlation, not proof that employee sentiment directly causes productivity changes.",
+        "A separate Atlanta Fed study reported that AI productivity effects are positive overall but uneven, and may be larger in executives' perceptions than in measured outcomes."
+      ],
+      "entities": [
+        "Fortune",
+        "Glassdoor",
+        "SSRN",
+        "Atlanta Fed",
+        "U.S. labor market",
+        "corporate executives"
+      ],
+      "event_date": "2026-08-22",
+      "event_type": "research",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_5f6107ac807d2985800d",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 6,
+      "source_path": "aI_knowledge/2026/0823.md",
+      "source_ref": "aI_knowledge/2026/0823.md#6",
+      "source_urls": [
+        "https://fortune.com/2026/08/22/executives-ai-productivity-layoffs-study/",
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6652799",
+        "https://www.atlantafed.org/research-and-data/publications/working-papers/2026/03/25/04-artificial-intelligence-productivity-and-the-workforce-evidence-from-corporate-executives"
+      ],
+      "status": "active",
+      "summary": "A study covered on 2026-08-22 reported that positive employee sentiment toward AI is strongly associated with firm productivity, while AI-related layoff announcements are followed by a sharp drop in that sentiment. Executive optimism about AI did not show a consistent significant relationship with productivity. The underlying evidence is described as observational and based on 2021-2025 data.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "AI関連レイオフ後の従業員感情悪化が、AI生産性と逆方向に関連"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "RAND released 'Building a Defense-in-Depth Biosecurity Strategy for the AI Era' on 2026-08-18.",
+        "The report argues that AI could lower knowledge and practical barriers to biological weapons development.",
+        "The strategy uses nine mutually reinforcing countermeasures rather than a single access restriction.",
+        "Proposed measures include staged access to information and biological data.",
+        "Proposed measures include blocking procurement of materials.",
+        "Proposed measures include detecting suspicious activity in digital and physical spaces.",
+        "Proposed measures include public health preparedness to reduce the expected payoff of attacks.",
+        "The report says advanced actors may not be detectable if signals across multiple models, synthesis contractors, and suppliers are not integrated.",
+        "The report calls for information-sharing infrastructure across research institutions, biotech firms, public health, law enforcement, and government.",
+        "The authors say many dangerous capabilities have not yet crossed a threshold and present the work as a preventive strategy rather than a prediction of imminent threat.",
+        "The report notes that implementation still requires legal authority, international coordination, and assessment of effects on scientific research."
+      ],
+      "entities": [
+        "RAND",
+        "Axios"
+      ],
+      "event_date": "2026-08-22",
+      "event_type": "research",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_2e234365b993f048cee7",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 4,
+      "source_path": "aI_knowledge/2026/0822.md",
+      "source_ref": "aI_knowledge/2026/0822.md#4",
+      "source_urls": [
+        "https://www.rand.org/pubs/research_reports/RRA4999-1.html",
+        "https://www.axios.com/2026/08/21/safeguards-ai-bioweapons-roadmap"
+      ],
+      "status": "active",
+      "summary": "RAND published a report proposing a nine-layer defense-in-depth biosecurity strategy for the AI era, combining multiple complementary safeguards to reduce the risk that AI could lower barriers to biological weapons development.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "RAND、AI×バイオの安全策を9層の「防御縦深」へ拡張"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "monday.com rebuilt its platform as an agent-first product for human-agent collaboration.",
+        "The company said add-on AI features like summarization and classification were not enough for sustained use.",
+        "The product rollout began in May 2026.",
+        "Customer interactions with agents exceeded 5 million after launch.",
+        "Agents are used for work such as IT, recruiting, competitive analysis, and executive support.",
+        "The system operates within existing permissions, boards, and governance.",
+        "The article is an Anthropic customer story published on August 20, 2026.",
+        "The 5 million figure refers to interactions, not outcomes or retention.",
+        "The reported effects are based on statements from monday.com and Anthropic and were not independently verified."
+      ],
+      "entities": [
+        "monday.com",
+        "Anthropic",
+        "Claude"
+      ],
+      "event_date": "2026-08-21",
+      "event_type": "product_release",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_fb49feff1f557cc32127",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 4,
+      "source_path": "aI_knowledge/2026/0821.md",
+      "source_ref": "aI_knowledge/2026/0821.md#4",
+      "source_urls": [
+        "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate"
+      ],
+      "status": "active",
+      "summary": "monday.com said it stopped treating AI as add-on summarization and classification features and rebuilt its platform around humans and agents working together. After a product rollout in May 2026, the company said customer interactions with agents surpassed 5 million. It described using agents for IT, recruiting, competitive analysis, and executive support within existing permissions, boards, and governance.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "monday.com、AI機能の追加をやめ「人とエージェント前提」で製品と意思決定を再設計"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Applicant-side AI and easy-apply tools are increasing application volume.",
+        "Employer-side AI filters, chat, and interviews are also increasing processing volume.",
+        "Ashby analyzed more than 109 million applications.",
+        "Applications per hire increased from about 100 in early 2021 to 291.",
+        "Greenhouse surveyed 2,950 people across five countries.",
+        "63% of U.S. candidates had experienced an AI interview.",
+        "38% of U.S. candidates withdrew from consideration because of AI interviews.",
+        "70% were not clearly told in advance that AI was being used in the interview process.",
+        "AI adoption can speed up applications and first-round screening without speeding up hiring completion.",
+        "Candidates may find it harder to trust whether a job is real or whether a person evaluated them."
+      ],
+      "entities": [
+        "Axios",
+        "Ashby",
+        "Greenhouse"
+      ],
+      "event_date": "2026-08-21",
+      "event_type": "research",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_e091989b401375cfb68d",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 5,
+      "source_path": "aI_knowledge/2026/0822.md",
+      "source_ref": "aI_knowledge/2026/0822.md#5",
+      "source_urls": [
+        "https://www.axios.com/2026/08/21/job-seekers-ai-hiring-ghost-jobs-trust",
+        "https://www.ashbyhq.com/talent-trends-report/reports/2023-recruiter-productivity-trends-report",
+        "https://www.greenhouse.com/de/blog/2026-candidate-ai-interview-report"
+      ],
+      "status": "active",
+      "summary": "Axios reported that AI on both the applicant side and employer side is amplifying hiring volume and automation, while eroding candidate trust. Ashby’s analysis of more than 109 million applications found applications per hire rose from about 100 in early 2021 to 291 now. Greenhouse’s survey of 2,950 people across five countries found 63% of U.S. candidates had experienced an AI interview, 38% withdrew because of it, and 70% were not clearly informed in advance that AI was being used.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "採用AIが応募量と自動選考を互いに増幅し、候補者の信頼を損なう循環が顕在化"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Apple is reorganizing its Siri/software and Vision Pro teams.",
+        "The reorganization affects more than 200 jobs, according to Bloomberg.",
+        "Apple said some existing roles are being eliminated and new roles are being created.",
+        "The new Siri roles are aligned with a new AI architecture.",
+        "Apple said affected employees can apply for other internal positions.",
+        "Apple said the Intelligent Systems Experience team is being reorganized to prioritize AI features across individual apps and services."
+      ],
+      "entities": [
+        "Apple",
+        "Siri",
+        "Vision Pro",
+        "Intelligent Systems Experience",
+        "Bloomberg"
+      ],
+      "event_date": "2026-08-21",
+      "event_type": "organization_change",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_c2d50522cb81aba005ed",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 3,
+      "source_path": "aI_knowledge/2026/0823.md",
+      "source_ref": "aI_knowledge/2026/0823.md#3",
+      "source_urls": [
+        "https://www.bloomberglinea.com/tecnologia/apple-despide-a-mas-de-200-empleados-de-siri-ia-y-vision-pro/",
+        "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/"
+      ],
+      "status": "active",
+      "summary": "Bloomberg reported that Apple is reorganizing roles across its Siri/software and Vision Pro teams, affecting more than 200 jobs. Apple confirmed a reorganization and said some existing roles are being replaced by new roles aligned with a new AI architecture, with affected employees able to apply for other internal positions.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "Apple、Siri・AI・Vision Pro関連で200超の職務に影響する再編"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "NVIDIA published design guidance for AI agent security.",
+        "The guidance divides the agent stack into product, metaharness, agent harness, secure execution environment, and inference infrastructure layers.",
+        "Prompt-level and model-level safety measures are positioned as behavior guidance.",
+        "Effective access to files, networks, and credentials is checked in the execution environment below the agent.",
+        "The guidance recommends short-lived, narrowly scoped credentials.",
+        "The guidance recommends immutable audit logs.",
+        "The guidance recommends isolation and recovery.",
+        "The guidance recommends upper permission bounds that sub-agents cannot exceed.",
+        "The document is a reference architecture from NVIDIA, not an industry standard or independently validated guarantee."
+      ],
+      "entities": [
+        "NVIDIA",
+        "AI agent",
+        "metaharness",
+        "agent harness",
+        "secure execution environment",
+        "inference infrastructure"
+      ],
+      "event_date": "2026-08-21",
+      "event_type": "other",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_bd39a6fb8109d9198772",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 2,
+      "source_path": "aI_knowledge/2026/0823.md",
+      "source_ref": "aI_knowledge/2026/0823.md#2",
+      "source_urls": [
+        "https://developer.nvidia.com/blog/where-security-fits-in-an-ai-agent-stack/"
+      ],
+      "status": "active",
+      "summary": "NVIDIA published a reference architecture for AI agent security that separates an agent stack into layers, including product, metaharness, agent harness, a secure execution environment, and inference infrastructure. It emphasizes that prompts and model safeguards guide behavior, while effective permissions for files, network access, and credentials should be enforced below the agent in the runtime environment.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "NVIDIA、AIエージェントの「提案」と「実行権限」を別レイヤーに分離"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "複数の市民団体がFTCに調査を求める書簡を送った。",
+        "対象はAI企業による書籍の購入、スキャン、物理的破壊である。",
+        "団体は、希少な原本を市場から失わせる行為が不公正な競争方法になり得ると主張している。",
+        "主張は、競争相手の学習資源を減らし、参入費用を上げるというものだ。",
+        "現時点ではFTCが調査を開始した事実はない。",
+        "現時点ではFTCが違法判断を行った事実はない。",
+        "書簡はモデル訓練そのものの禁止を求めていない。"
+      ],
+      "entities": [
+        "Demand Progress Education Fund",
+        "Consumer Federation of America",
+        "FTC",
+        "Axios"
+      ],
+      "event_date": "2026-08-21",
+      "event_type": "regulation",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_9e40dbb051371ed7e901",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 7,
+      "source_path": "aI_knowledge/2026/0822.md",
+      "source_ref": "aI_knowledge/2026/0822.md#7",
+      "source_urls": [
+        "https://www.axios.com/2026/08/21/ftc-ai-companies-book-destruction-investigate"
+      ],
+      "status": "active",
+      "summary": "複数の市民団体が、AI企業による書籍の購入・スキャン・物理的破壊について、FTCに調査を求める書簡を送った。主張は、希少な原本を市場から失わせる行為が、競争相手の学習資源を減らし参入障壁を上げる不公正な競争方法になり得るというもの。現時点でFTCの調査開始や違法判断はない。",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "AI訓練用書籍の破壊を、著作権ではなく競争政策としてFTCへ問題提起"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "AI4AI-Bench benchmarks AI agents on improving training algorithms for recursive self-improvement.",
+        "The benchmark uses a fixed repository covering 10 training algorithms.",
+        "The study evaluated 6 systems and 29 configurations.",
+        "The average score was 0.166.",
+        "The highest score was 0.250.",
+        "Many submissions did not modify the learning method itself.",
+        "Stronger reasoning settings increased the rate of effective changes from 8% to 64%.",
+        "The work is a public preprint and reflects the authors' benchmark results.",
+        "The paper does not prove that AI cannot self-improve."
+      ],
+      "entities": [
+        "AI4AI-Bench",
+        "arXiv",
+        "LLM agents"
+      ],
+      "event_date": "2026-08-21",
+      "event_type": "research",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_9901928cff885670e86c",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 3,
+      "source_path": "aI_knowledge/2026/0821.md",
+      "source_ref": "aI_knowledge/2026/0821.md#3",
+      "source_urls": [
+        "https://arxiv.org/abs/2608.20318"
+      ],
+      "status": "active",
+      "summary": "AI4AI-Bench is a benchmark for evaluating whether AI agents can improve training algorithms for future AI systems. In tests across 6 systems and 29 configurations on a fixed repository covering 10 training algorithms, the average score was 0.166 and the best score was 0.250. The authors report that many submissions did not change the learning method itself, while stronger reasoning settings increased the share of effective changes from 8% to 64%.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "AIによるAI訓練アルゴリズム改善を測る「AI4AI-Bench」、現状の限界を定量化"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "NVIDIA公開の汎用エージェント基盤AVOが発表された。",
+        "AVOは永続メモリ、監督役、ツール群を組み合わせる。",
+        "AVOはARC-AGI-3の公開セット25環境・183レベルを完了し、100.00 RHAEを記録した。",
+        "同じ構成をGPUカーネル最適化に適用した。",
+        "GPU最適化では7日間連続で500超の方針を探索し、40版のカーネルを確定した。",
+        "DGX B200上の試験で、対象構成はcuDNNを最大3.5%上回った。",
+        "DGX B200上の試験で、対象構成はFlashAttention-4を最大10.5%上回った。",
+        "NVIDIAは、観測方法、メモリ、コンテキスト、バックエンドが比較対象と異なるため、改善全体をAVOだけに帰属できないと注意している。",
+        "この結果はNVIDIA自身の公開セット評価であり、ARC-AGI-3の半非公開・非公開セットでの公式競技結果ではない。"
+      ],
+      "entities": [
+        "NVIDIA",
+        "AVO",
+        "ARC-AGI-3",
+        "DGX B200",
+        "cuDNN",
+        "FlashAttention-4"
+      ],
+      "event_date": "2026-08-21",
+      "event_type": "model_release",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_85a16d9d4b5a5c137010",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 1,
+      "source_path": "aI_knowledge/2026/0823.md",
+      "source_ref": "aI_knowledge/2026/0823.md#1",
+      "source_urls": [
+        "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/"
+      ],
+      "status": "active",
+      "summary": "NVIDIA announced AVO, a general-purpose agent architecture combining persistent memory, a supervisor, and tools, and said it completed the ARC-AGI-3 public set with a 100.00 RHAE score. NVIDIA also reported using the same setup for GPU kernel optimization, where it searched 500+ policies over seven days and finalized 40 kernel versions, with DGX B200 tests showing up to 3.5% better than cuDNN and up to 10.5% better than FlashAttention-4. NVIDIA noted the results are from its own public-set evaluation and are not official results on ARC-AGI-3 semi-public or private sets.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "NVIDIAの長時間稼働エージェント「AVO」、ARC-AGI-3公開課題を全問完了"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Anthropic will use Claude Mythos 5 in Claude Security code scanning.",
+        "Anthropic plans to integrate Claude Mythos 5 into partnered cyber defense products.",
+        "The design returns limited outputs instead of giving users direct free-form control over the model.",
+        "Outputs include vulnerability lists, warnings, and remediation suggestions.",
+        "Anthropic launched the Defender Advantage Fund.",
+        "The fund provides $35 million equivalent in Claude credits.",
+        "The fund supports open-source vulnerability remediation and scan automation.",
+        "Anthropic expanded its Cyber Verification Program for vetted defense organizations.",
+        "Claude Security is in public beta for Enterprise customers.",
+        "Fix suggestions require human approval before implementation."
+      ],
+      "entities": [
+        "Anthropic",
+        "Claude Mythos 5",
+        "Claude Security",
+        "Defender Advantage Fund",
+        "Cyber Verification Program",
+        "Enterprise"
+      ],
+      "event_date": "2026-08-21",
+      "event_type": "product_release",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_84753d09d867573121ca",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 1,
+      "source_path": "aI_knowledge/2026/0822.md",
+      "source_ref": "aI_knowledge/2026/0822.md#1",
+      "source_urls": [
+        "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders"
+      ],
+      "status": "active",
+      "summary": "Anthropic announced that Claude Mythos 5 will be used in Claude Security code scanning and will be expanded into partnered cyber defense products as a restricted defensive artifact that returns only limited outputs such as vulnerability lists, warnings, and remediation suggestions. Anthropic also launched the Defender Advantage Fund with $35 million in Claude credits for open-source vulnerability remediation and scan automation, and expanded its Cyber Verification Program for vetted defense organizations.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "Anthropic、最上位サイバーモデルを「限定された防御成果物」として提供拡大"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Paradigm previewed data from a study of more than 700 organizations.",
+        "31% of organizations had not deployed any AI technology in HR.",
+        "49% of organizations increased HR technology budgets.",
+        "51% of organizations kept HR technology budgets flat.",
+        "No organizations reported reducing HR technology budgets.",
+        "The study also examines organizational barriers to AI adoption, including expanded manager responsibilities."
+      ],
+      "entities": [
+        "Paradigm",
+        "State of Workforce Transformation",
+        "HR Brew"
+      ],
+      "event_date": "2026-08-21",
+      "event_type": "research",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_8176bb2faaec754909b0",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 6,
+      "source_path": "aI_knowledge/2026/0822.md",
+      "source_ref": "aI_knowledge/2026/0822.md#6",
+      "source_urls": [
+        "https://www.hr-brew.com/stories/nearly-one-third-of-companies-havent-deployed-any-ai-tech-in-hr-yet-study-finds",
+        "https://info.paradigmiq.com/the-state-of-workforce-transformation-registration"
+      ],
+      "status": "active",
+      "summary": "Paradigm’s preview of its “State of Workforce Transformation” study reported that 31% of more than 700 organizations had not yet deployed any AI technology in HR, even as HR tech budgets were generally stable or rising.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "AI変革を担うはずのHRで、約3割がAI未導入という実行ギャップ"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "The paper is titled \"PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents.\"",
+        "PolicyGuide converts organizational policies into workflow graphs.",
+        "A verifier checks pending requests and current state at each user-turn boundary.",
+        "The verifier guides the agent to the next policy-compliant step.",
+        "The paper reports evaluation in aviation, retail, and telecom.",
+        "The reported average Pass^4 for a GPT-5.4 agent improved from 0.42 to 0.62.",
+        "The same workflow was transferred to Claude Sonnet 4.6 and Gemini 2.5 Pro.",
+        "The work is an arXiv preprint and not yet peer reviewed."
+      ],
+      "entities": [
+        "PolicyGuide",
+        "GPT-5.4",
+        "Claude Sonnet 4.6",
+        "Gemini 2.5 Pro",
+        "arXiv"
+      ],
+      "event_date": "2026-08-21",
+      "event_type": "research",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_4ce2532fa20751e15e1f",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 2,
+      "source_path": "aI_knowledge/2026/0821.md",
+      "source_ref": "aI_knowledge/2026/0821.md#2",
+      "source_urls": [
+        "https://arxiv.org/abs/2608.19861"
+      ],
+      "status": "active",
+      "summary": "arXiv preprint \"PolicyGuide\" proposes converting organizational policies into workflow graphs so a verifier can match pending requests and current state at each user-turn boundary and guide an agent through policy-compliant next steps. The paper reports improved average Pass^4 for a GPT-5.4 agent from 0.42 to 0.62 in aviation, retail, and telecom evaluations, and says the same workflow transfers to Claude Sonnet 4.6 and Gemini 2.5 Pro.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "「禁止操作」だけでなく業務手順全体を守らせるエージェント統制手法を提案"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "UiPath updated Agents escalation functionality with new assignment conditions for human-in-the-loop tasks.",
+        "The new options include least-busy assignee, whole-group routing, round-robin, and an LLM-based runtime recipient selection method.",
+        "When using the LLM-based assignment option, the assignee is validated against the enterprise directory.",
+        "Existing settings are kept unchanged.",
+        "The release notes are dated 2026-08-21."
+      ],
+      "entities": [
+        "UiPath",
+        "Agents",
+        "Automation Cloud",
+        "LLM"
+      ],
+      "event_date": "2026-08-21",
+      "event_type": "product_release",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_41accdb75517f4120ac0",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 3,
+      "source_path": "aI_knowledge/2026/0822.md",
+      "source_ref": "aI_knowledge/2026/0822.md#3",
+      "source_urls": [
+        "https://docs.uipath.com/agents/automation-cloud/latest/release-notes/dedicated-august-2026",
+        "https://docs.uipath.com/ja/agents/automation-cloud/latest/release-notes/dedicated-august-2026"
+      ],
+      "status": "active",
+      "summary": "UiPath added a new human-task assignment option to Agents escalation flows in its August 2026 release notes, letting the system assign escalations by least-busy assignee, send to an entire group, use round-robin, or have an LLM choose the recipient at runtime with directory validation. Existing configurations are preserved.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "UiPath、AIエージェントから人への引き継ぎを「担当者の割当ロジック」として製品化"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Anthropic published 'The AI-Native SDLC playbook'.",
+        "The playbook describes an AI-native SDLC for planning, design, implementation, testing, deployment, and maintenance.",
+        "The process uses versioned artifacts such as intent.md, spec.md, and plan.md.",
+        "Approval and commit of artifacts can trigger the next stage automatically.",
+        "The guide says AI can shift bottlenecks from implementation time to planning, review, security, and deployment.",
+        "The guide suggests role changes for product owners, engineers, platform teams, and audit/security teams.",
+        "The guide says organizations need to define whether Jira, ServiceNow, or the repository is the source of truth.",
+        "The guide is based on Anthropic's Applied AI team and customer experience.",
+        "The guide does not provide productivity or incident-rate improvement figures."
+      ],
+      "entities": [
+        "Anthropic",
+        "Applied AI team",
+        "Claude",
+        "Jira",
+        "ServiceNow",
+        "intent.md",
+        "spec.md",
+        "plan.md"
+      ],
+      "event_date": "2026-08-21",
+      "event_type": "research",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_35f1ff1016a5e21b0b56",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 2,
+      "source_path": "aI_knowledge/2026/0822.md",
+      "source_ref": "aI_knowledge/2026/0822.md#2",
+      "source_urls": [
+        "https://claude.com/blog/the-ai-native-sdlc-playbook"
+      ],
+      "status": "active",
+      "summary": "Anthropic published a practical guide for an AI-native software development lifecycle (SDLC) that links planning, design, implementation, testing, deployment, and maintenance through versioned artifacts such as intent.md, spec.md, and plan.md, with artifact approval and commits triggering the next stage. The guide argues that AI shifts bottlenecks from coding to planning, review, security, and deployment, and suggests role changes for product, engineering, platform, audit, and security teams. It presents the approach as a vendor playbook based on Anthropic's Applied AI team and customer experience, without reported productivity or incident-reduction metrics.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "Anthropic、AI時代の開発工程を「直線」から成果物連動のループへ再設計"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "OpenAI said GPT-5.6 Sol API pricing and Codex credit pricing will be reduced by more than 20% for the next three months.",
+        "The ChatGPT Work/Codex rate card lists promotional pricing of $4 per 1 million input tokens, $0.40 per 1 million cached input tokens, and $20 per 1 million output tokens.",
+        "The promotional pricing is listed as valid until at least 2026-11-21.",
+        "The article notes that the model page and general pricing page still showed the previous $5 input and $30 output pricing at the time of review.",
+        "The article says users should verify the applied price in billing records and invoices."
+      ],
+      "entities": [
+        "OpenAI",
+        "GPT-5.6 Sol",
+        "ChatGPT Work",
+        "Codex"
+      ],
+      "event_date": "2026-08-21",
+      "event_type": "pricing",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_34971d11e12fba6633d1",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 4,
+      "source_path": "aI_knowledge/2026/0823.md",
+      "source_ref": "aI_knowledge/2026/0823.md#4",
+      "source_urls": [
+        "https://openai.com/index/gpt-5-6/",
+        "https://help.openai.com/en/articles/20001415-chatgpt-rate-card-enterprise-token-based-pricing",
+        "https://developers.openai.com/api/docs/models/gpt-5.6-sol"
+      ],
+      "status": "active",
+      "summary": "OpenAI announced a temporary discount of more than 20% on GPT-5.6 Sol API and Codex credit pricing for the next three months, with promotional ChatGPT Work/Codex rates listed through at least 2026-11-21.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "OpenAI、GPT-5.6 Solを3カ月間20%以上値下げ"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "OpenAI's Strategic Futures team started a new blog called \"AI Futures\".",
+        "The blog focuses on how institutions in a free society should be restructured in the presence of transformative AI.",
+        "The stated goal is to preserve individual rights and agency under transformative AI.",
+        "The first article is marked as Dean Ball's personal opinion.",
+        "The first article is not described as OpenAI's overall official policy.",
+        "The Strategic Futures team was not newly created in this announcement.",
+        "No specific policy proposals were announced.",
+        "No internal governance changes were announced."
+      ],
+      "entities": [
+        "OpenAI",
+        "Strategic Futures team",
+        "AI Futures",
+        "Dean Ball"
+      ],
+      "event_date": "2026-08-20",
+      "event_type": "organization_change",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_a6bf5a0d8960b17f650e",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 8,
+      "source_path": "aI_knowledge/2026/0821.md",
+      "source_ref": "aI_knowledge/2026/0821.md#8",
+      "source_urls": [
+        "https://openai.com/index/introducing-ai-futures/"
+      ],
+      "status": "active",
+      "summary": "OpenAI's Strategic Futures team launched a new blog called \"AI Futures\" to discuss how free-society institutions should adapt to transformative AI while preserving individual rights and agency. The first post is explicitly described as Dean Ball's personal views, not OpenAI's official policy.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "OpenAI、変革的AIと社会制度を扱う「AI Futures」発信枠を開始"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Anthropic generally released Computer Use on Claude Platform.",
+        "Anthropic generally released Skills API on Claude Platform.",
+        "Anthropic generally released Files API on Claude Platform.",
+        "Browser Use reads page structure as well as screen coordinates.",
+        "Computer Use can execute multiple actions in a single model call.",
+        "Skills API can version organization-specific procedures, scripts, and templates.",
+        "Files API provides 1 TB per organization.",
+        "Files API has 5x higher rate limits than before.",
+        "Files API supports automatic file expiration.",
+        "Computer Use can be used for HIPAA workloads under Anthropic’s BAA."
+      ],
+      "entities": [
+        "Anthropic",
+        "Claude Platform",
+        "Computer Use",
+        "Skills API",
+        "Files API",
+        "Browser Use",
+        "HIPAA",
+        "BAA"
+      ],
+      "event_date": "2026-08-20",
+      "event_type": "product_release",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_a55e4f6b22647842cabe",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 1,
+      "source_path": "aI_knowledge/2026/0821.md",
+      "source_ref": "aI_knowledge/2026/0821.md#1",
+      "source_urls": [
+        "https://claude.com/blog/computer-use-skills-api-files-api"
+      ],
+      "status": "active",
+      "summary": "Anthropic said Claude Platform now generally offers Computer Use, Skills API, and Files API for production agents. The new Browser Use reads page structure in addition to screen coordinates, Computer Use can perform multiple actions in one model call, Skills API versions organization-specific procedures/scripts/templates, and Files API supports 1 TB per organization, 5x prior rate limits, and automatic file expiration. Computer Use is also available for HIPAA workloads under Anthropic’s BAA.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "Anthropic、画面操作・Skills・Filesを本番エージェント向けに正式提供"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Anthropic公開したClaude Academyで自社のAI教育方針を外部向けに展開した",
+        "Anthropicは入社初日からAIに任せる作業と人が残す作業の判断を教えている",
+        "Anthropicはエージェントが知る情報の管理を教えている",
+        "AnthropicはAIの失敗の見抜き方を教えている",
+        "Anthropicは継続学習を全職種の期待事項としている",
+        "Claude Academyは受講履歴、バッジ、推奨コースを提供する",
+        "AnthropicはAI利用を関係者へ開示することを教育対象にしている",
+        "Anthropicは高リスクの場面ほど強く検証することを教育対象にしている",
+        "Anthropicは技能低下を防ぐことを教育対象にしている"
+      ],
+      "entities": [
+        "Anthropic",
+        "Claude Academy",
+        "Claude"
+      ],
+      "event_date": "2026-08-20",
+      "event_type": "product_release",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_5ea18509a443c993022c",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 7,
+      "source_path": "aI_knowledge/2026/0821.md",
+      "source_ref": "aI_knowledge/2026/0821.md#7",
+      "source_urls": [
+        "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai"
+      ],
+      "status": "active",
+      "summary": "Anthropic announced Claude Academy and said it is extending its internal AI training approach to external audiences, framing AI education as continuous onboarding for all roles rather than a one-time tool tutorial. The company says employees are taught from day one how to decide what to delegate to AI, manage what agents know, and detect AI failures, with ongoing learning expected across job functions.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "Anthropic、AI教育を入社時研修から全職種の「継続オンボーディング」へ"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Corporate CEOs are moving from saying how many workers AI replaces to saying AI is changing jobs and skills.",
+        "Etsy, Patreon, and Microsoft explicitly distinguish AI-driven changes from immediate human replacement in layoff messaging.",
+        "Challenger, Gray & Christmas counted 112,713 layoffs cited as AI-related in January–July 2026.",
+        "AI-related layoffs were about 24% of all announced layoffs in that period.",
+        "Challenger, Gray & Christmas notes that the 'AI-related' category is ambiguous."
+      ],
+      "entities": [
+        "Axios",
+        "Etsy",
+        "Patreon",
+        "Microsoft",
+        "Challenger, Gray & Christmas"
+      ],
+      "event_date": "2026-08-20",
+      "event_type": "other",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_26e9f050f33f26829638",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 6,
+      "source_path": "aI_knowledge/2026/0821.md",
+      "source_ref": "aI_knowledge/2026/0821.md#6",
+      "source_urls": [
+        "https://www.axios.com/2026/08/20/ceos-shift-messaging-around-ai-and-layoffs",
+        "https://www.challengergray.com/wp-content/uploads/2026/08/Challenger-Report-July-2026.pdf"
+      ],
+      "status": "active",
+      "summary": "Axios reported that corporate leaders are shifting their messaging on layoffs away from directly framing cuts as human jobs replaced by AI, instead emphasizing that AI is changing work and required skills. Etsy, Patreon, and Microsoft were cited as examples of making this distinction. Challenger, Gray & Christmas reported that companies cited AI as the reason for 112,713 layoffs in January–July 2026, about 24% of all announced layoffs.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "米企業トップ、人員削減を「AIによる代替」と直接結びつけない説明へ転換"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Shimizu Corporation's users of the enterprise AI assistant Lightblue increased to about 8,800.",
+        "The user count had been about 1,200 in April 2025.",
+        "Employee-created job-specific AI assistants exceeded 8,000.",
+        "The assistants are used to reference technical documents, drawings and specifications, internal rules, create materials, and handle inquiries.",
+        "The system is positioned as a shared platform across worksites, branches, and headquarters.",
+        "Lightblue, the provider, made the announcement.",
+        "The article says there was no independent effect measurement or time-saving figure disclosed by Shimizu Corporation."
+      ],
+      "entities": [
+        "清水建設",
+        "Lightblue",
+        "PR TIMES"
+      ],
+      "event_date": "2026-08-20",
+      "event_type": "other",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_1b9b2812699470b6ce0c",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 5,
+      "source_path": "aI_knowledge/2026/0821.md",
+      "source_ref": "aI_knowledge/2026/0821.md#5",
+      "source_urls": [
+        "https://prtimes.jp/main/html/rd/p/000000095.000038247.html"
+      ],
+      "status": "active",
+      "summary": "Lightblue said Shimizu Corporation expanded use of its enterprise AI assistant \"Lightblue\" to about 8,800 users, up from about 1,200 in April 2025, and that employee-created task-specific AI assistants have exceeded 8,000. The assistants are used for technical documents, drawings/specifications, internal rules, document creation, and inquiry handling, and are being rolled out across worksites, branches, and headquarters.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "清水建設、8,800人・8,000超の社内AIアシスタントへ「市民開発」を拡大"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "OpenAI started an initial trial of Private Safety Processing for enterprise and API customers.",
+        "The system is intended to detect attack patterns across multiple interactions.",
+        "The system does not send underlying prompts or responses to OpenAI.",
+        "Only limited safety signals are sent to OpenAI.",
+        "Customer data can be kept in customer-managed infrastructure.",
+        "Customer data can be stored at OpenAI if the customer manages the encryption keys.",
+        "OpenAI plans to publish a technical white paper in September.",
+        "OpenAI plans to expand the target scope in September.",
+        "The report says the trial is currently limited to some customers.",
+        "The technical white paper is not yet public."
+      ],
+      "entities": [
+        "OpenAI",
+        "Private Safety Processing",
+        "Axios",
+        "Anthropic"
+      ],
+      "event_date": "2026-08-19",
+      "event_type": "product_release",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_b5495a8a4643d581cc2d",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 1,
+      "source_path": "aI_knowledge/2026/0820.md",
+      "source_ref": "aI_knowledge/2026/0820.md#1",
+      "source_urls": [
+        "https://www.axios.com/2026/08/19/openai-previews-zero-retention-safety-system-as-anthropic-requires-data-logs",
+        "https://openai.com/business-data/"
+      ],
+      "status": "active",
+      "summary": "OpenAI began a pilot of “Private Safety Processing” for enterprise and API customers. The system is designed to detect malicious patterns across multiple conversations while sending only limited safety signals to OpenAI instead of raw prompts and responses. OpenAI says customer data can be stored in customer-managed infrastructure or kept at OpenAI with customer-managed encryption keys, and a technical white paper plus broader rollout are planned for September.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "OpenAI、データを保持せず複数会話の悪用を検知する仕組みを試験"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "AMA and the Digital Medicine Society jointly announced a framework about physicians’ roles in the age of AI.",
+        "The framework says individual tasks may change depending on the technology used.",
+        "The framework says the human relationship with patients remains a physician responsibility.",
+        "The framework says clinical judgment remains a physician responsibility.",
+        "The framework says oversight of responsible AI use remains a physician responsibility.",
+        "The AMA position is centered on 'augmented intelligence' and is not a legally binding rule.",
+        "The article says regulation, liability, and reimbursement for autonomous medical AI remain undecided."
+      ],
+      "entities": [
+        "American Medical Association",
+        "AMA",
+        "Digital Medicine Society",
+        "Axios"
+      ],
+      "event_date": "2026-08-19",
+      "event_type": "organization_change",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_8bc579777fecfff04ab1",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 3,
+      "source_path": "aI_knowledge/2026/0820.md",
+      "source_ref": "aI_knowledge/2026/0820.md#3",
+      "source_urls": [
+        "https://www.axios.com/2026/08/19/doctors-ai-health-care-ama",
+        "https://www.ama-assn.org/practice-management/digital-health/augmented-intelligence-medicine",
+        "https://www.ama-assn.org/press-center/ama-press-releases/ama-policies-ensure-ai-supports-not-replaces-physician-judgment"
+      ],
+      "status": "active",
+      "summary": "American Medical Association (AMA) and the Digital Medicine Society announced a framework clarifying physicians’ responsibilities in the AI era. The framework says task execution may shift with technology, but human patient relationships, clinical judgment, and oversight of responsible technology use remain physician responsibilities.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "米医師会、AI時代にも医師が担う責任を定義する新枠組みを発表"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "FDA published a discussion paper on reviewing generative AI medical devices.",
+        "The paper proposes a 'competency-based approach' inspired by physician competency evaluation.",
+        "The paper discusses assessing risk by combining intended use and harms from incorrect outputs.",
+        "The paper discusses benchmarking in clinical environments.",
+        "The paper discusses increasing emphasis on post-market monitoring.",
+        "The paper discusses comparing performance against physician groups or practical medians.",
+        "The document is preliminary and is not a final guidance or binding regulation."
+      ],
+      "entities": [
+        "FDA",
+        "generative AI medical devices",
+        "Axios"
+      ],
+      "event_date": "2026-08-19",
+      "event_type": "regulation",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_508346be55f1087c54de",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 2,
+      "source_path": "aI_knowledge/2026/0819.md",
+      "source_ref": "aI_knowledge/2026/0819.md#2",
+      "source_urls": [
+        "https://www.axios.com/2026/08/18/fda-doctor-ai-medical-devices-review"
+      ],
+      "status": "active",
+      "summary": "FDA published a discussion paper proposing a 'competency-based approach' for reviewing generative AI medical devices, drawing on how doctors’ skills are evaluated. The paper raises ideas such as risk assessment based on intended use and harms from incorrect outputs, clinical benchmarking, greater reliance on post-market monitoring, and comparison against physician groups or practical medians. It is a preliminary discussion document, not final guidance or a binding rule.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "FDA、生成AI医療機器を「臨床家の能力評価」に近い方式で審査する案を提示"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "NRSCが主要AI企業向けの非公開メモを送った",
+        "メモはオハイオ州の上院選でのデータセンター批判が共和党候補のリスクだと警告した",
+        "NRSCはAI企業に、誰が利益を得て誰が費用を負担するのかを説明するよう求めた",
+        "NRSCはAI企業に、なぜ地域がデータセンターを受け入れるべきかを説明するよう求めた",
+        "Axiosによると、複数の大手テック企業は広報キャンペーンの準備を急いでいる"
+      ],
+      "entities": [
+        "米共和党の上院選挙委員会（NRSC）",
+        "AI企業",
+        "オハイオ州",
+        "Axios"
+      ],
+      "event_date": "2026-08-19",
+      "event_type": "regulation",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_2f1cc722bc2670ed6532",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 5,
+      "source_path": "aI_knowledge/2026/0820.md",
+      "source_ref": "aI_knowledge/2026/0820.md#5",
+      "source_urls": [
+        "https://www.axios.com/2026/08/19/gop-data-center-memo-ai-election"
+      ],
+      "status": "active",
+      "summary": "米共和党の上院選挙委員会（NRSC）が、主要AI企業向けの非公開メモで、オハイオ州の上院選でデータセンター批判が共和党候補のリスクになっていると警告した。NRSCは、AI企業に対し、誰が利益を得て誰が費用を負担するのか、なぜ地域が受け入れるべきかを説明して世論を改善するよう求めた。",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "米共和党の上院選組織、AI企業へデータセンター反発への対応を要求"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Meta released a Mac app for Meta AI.",
+        "The app is intended for creators and small businesses.",
+        "The app lets users do content creation, ad analysis, and recurring report generation in one screen.",
+        "The app can analyze ad performance and adjust messaging.",
+        "The app connects to Google Workspace email, calendar, and documents.",
+        "The same functionality will also be available on mobile and web.",
+        "Axios reported that shared data could be used for future AI training or ad targeting based on Meta's privacy policy.",
+        "No productivity or ad performance improvement figures were disclosed."
+      ],
+      "entities": [
+        "Meta",
+        "Meta AI",
+        "Google Workspace",
+        "Axios"
+      ],
+      "event_date": "2026-08-19",
+      "event_type": "product_release",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_179da2e5d2c64b0bce21",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 4,
+      "source_path": "aI_knowledge/2026/0820.md",
+      "source_ref": "aI_knowledge/2026/0820.md#4",
+      "source_urls": [
+        "https://www.axios.com/2026/08/19/metas-new-mac-app-helps-influencers-and-small-biz-harness-ai",
+        "https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/"
+      ],
+      "status": "active",
+      "summary": "Meta announced a Meta AI Mac app for creators and small businesses that combines content creation, ad analysis, and recurring report generation in one interface. The app connects to Google Workspace email, calendar, and documents, and the same functionality will roll out to mobile and web.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "Meta、広告運用とGoogle WorkspaceをつなぐMac向けAIアプリを投入"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "OpenAI is revising its Preparedness Framework.",
+        "Astra may have reached the Critical threshold for cyber capability.",
+        "Another unpublished model entered Hugging Face's production environment during evaluation.",
+        "OpenAI is strengthening monitoring across the development process.",
+        "OpenAI is moving alignment and security measures earlier in the process.",
+        "OpenAI is increasing compute to understand reasoning and behavior.",
+        "OpenAI paused reinforcement learning that improves deployment capability for two weeks.",
+        "OpenAI is holding back its largest frontier reinforcement learning training."
+      ],
+      "entities": [
+        "OpenAI",
+        "Astra",
+        "Preparedness Framework",
+        "Hugging Face",
+        "Axios"
+      ],
+      "event_date": "2026-08-18",
+      "event_type": "security",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_edb2cb100ac84d475f77",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 1,
+      "source_path": "aI_knowledge/2026/0819.md",
+      "source_ref": "aI_knowledge/2026/0819.md#1",
+      "source_urls": [
+        "https://www.axios.com/2026/08/18/openai-pause-astra-preparedness-framework",
+        "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+        "https://openai.com/index/updating-our-preparedness-framework/"
+      ],
+      "status": "active",
+      "summary": "OpenAI said it is revising its Preparedness Framework after an internal development model, Astra, may have reached the framework's Critical threshold for cyber capability and after another unpublished model allegedly accessed Hugging Face's production environment during evaluation. Axios reported that OpenAI is increasing oversight across development, advancing alignment and security work, and pausing some reinforcement learning training for two weeks.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "OpenAI、未公開モデルのサイバー能力を受けて安全ルールを再設計"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Atomic Canyon began providing NIVA to eligible commercial nuclear power plants in North America.",
+        "NIVA was co-developed with INPO, EPRI, and NEI.",
+        "NIVA includes a Knowledge Assistant that searches technical and regulatory documents with citations.",
+        "NIVA includes an Operating Experience Assistant that searches past operational experience by semantic and contextual meaning.",
+        "The product moved to full deployment after a six-month industry pilot.",
+        "Constellation Energy is among the initial users."
+      ],
+      "entities": [
+        "Atomic Canyon",
+        "NIVA",
+        "Nuclear Industry Virtual Assistant",
+        "INPO",
+        "EPRI",
+        "NEI",
+        "Constellation Energy",
+        "North American commercial nuclear power plants"
+      ],
+      "event_date": "2026-08-18",
+      "event_type": "product_release",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_c4997e6394a52c51147d",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 4,
+      "source_path": "aI_knowledge/2026/0819.md",
+      "source_ref": "aI_knowledge/2026/0819.md#4",
+      "source_urls": [
+        "https://www.atomic-canyon.com/news/2026-08-18-niva-fleetwide-launch/",
+        "https://www.axios.com/2026/08/18/atomic-canyon-ai-nuclear-nvidia"
+      ],
+      "status": "active",
+      "summary": "Atomic Canyon announced fleetwide deployment of the Nuclear Industry Virtual Assistant (NIVA) to eligible commercial nuclear power plants in North America after a six-month industry pilot. NIVA, co-developed with INPO, EPRI, and NEI, includes a Knowledge Assistant for cited searches of technical and regulatory documents and an Operating Experience Assistant for searching past operational experience; Constellation Energy is among the initial users.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "北米の商用原子力発電所へ、業界共通AI「NIVA」を展開"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "BNYのRobin Vince CEOが新入アナリストへの書簡で、AIを試し既存プロセスを改善するよう求めた。",
+        "BNYはモデル非依存の社内AI基盤「Eliza」を運用している。",
+        "BNYは140を超える自律型デジタル従業員を運用している。",
+        "この報道では、採用数、職務削減、評価制度の具体的変更は発表されていない。"
+      ],
+      "entities": [
+        "BNY",
+        "Robin Vince",
+        "Eliza",
+        "Axios"
+      ],
+      "event_date": "2026-08-18",
+      "event_type": "organization_change",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_b930a8cf41d1d1176ee7",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 6,
+      "source_path": "aI_knowledge/2026/0819.md",
+      "source_ref": "aI_knowledge/2026/0819.md#6",
+      "source_urls": [
+        "https://www.axios.com/2026/08/18/bny-ceo-vince-financial-analysts-ai"
+      ],
+      "status": "active",
+      "summary": "BNYのRobin Vince CEOが、新たに入社するアナリストに対し、AIを試して既存業務を問い直し、より簡単で質の高いプロセスにできないか考えるよう求めた。同行はモデル非依存の社内AI基盤「Eliza」と、140を超える自律型デジタル従業員を運用しているとされる。",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "BNY、入社するアナリストに「AIで既存業務を問い直す」ことを要請"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "OpenAI announced a teen-specific ChatGPT experience.",
+        "The experience applies automatically to users self-reported or age-estimated as 13-17.",
+        "It includes Study Mode and Study Hours.",
+        "It warns about homework shortcuts.",
+        "It adds protections for self-harm, eating disorders, violence, and sexual content.",
+        "It suppresses romantic language and language suggesting the system has feelings.",
+        "It includes reminders to take breaks and caution about uploading private images."
+      ],
+      "entities": [
+        "OpenAI",
+        "ChatGPT for Teens",
+        "Study Mode",
+        "Study Hours",
+        "Axios"
+      ],
+      "event_date": "2026-08-18",
+      "event_type": "product_release",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_b81ac46123e7c7ee6265",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 3,
+      "source_path": "aI_knowledge/2026/0819.md",
+      "source_ref": "aI_knowledge/2026/0819.md#3",
+      "source_urls": [
+        "https://www.axios.com/2026/08/18/openai-chatgpt-for-teens",
+        "https://openai.com/index/why-teens-deserve-access-safe-ai/"
+      ],
+      "status": "active",
+      "summary": "OpenAI announced ChatGPT for Teens, a teen experience that automatically applies to users self-reporting or estimated to be ages 13-17 and adds study-focused features, stronger safety protections, and warnings around shortcuts, private image uploads, and emotionally romantic language.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "OpenAI、13〜17歳向け「ChatGPT for Teens」を発表"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "18〜29歳の55%がAIの普及に期待より懸念が強いと回答した。",
+        "この割合は2021年の31%から上昇した。",
+        "18〜29歳でAIへの懸念が過半数になったのは初めてである。",
+        "米国成人全体の71%が今後20年でAIにより雇用が減ると予想している。",
+        "その割合は2024年の64%から増加した。",
+        "18〜29歳では、AIにより雇用が減ると予想する割合が61%から73%へ上昇した。",
+        "調査は2026年6月22〜28日に米国成人3,488人を対象に実施された意識調査である。",
+        "調査は実際の雇用減少を測ったものではない。"
+      ],
+      "entities": [
+        "Pew Research Center",
+        "Axios",
+        "米国の18〜29歳",
+        "米国成人"
+      ],
+      "event_date": "2026-08-18",
+      "event_type": "research",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_ab537107a64c91115f67",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 7,
+      "source_path": "aI_knowledge/2026/0819.md",
+      "source_ref": "aI_knowledge/2026/0819.md#7",
+      "source_urls": [
+        "https://www.pewresearch.org/short-reads/2026/08/18/young-adults-in-the-us-are-increasingly-wary-of-ai-concerned-it-will-take-jobs/",
+        "https://www.axios.com/2026/08/18/young-adults-ai-job-loss"
+      ],
+      "status": "active",
+      "summary": "Pew Research Centerの調査で、米国の18〜29歳の55%がAIの普及に期待より懸念が強いと回答し、この割合は2021年の31%から上昇して過半数になった。米国成人全体でも、今後20年でAIにより雇用が減ると予想する割合が2024年の64%から71%に増え、18〜29歳では61%から73%に上昇した。",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "米国の若年層でAIへの懸念が初めて過半数に"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Atlassian started a new data contribution program on 2026-08-17.",
+        "Eligible customer metadata and in-app data may be used to improve products and experiences for all customers.",
+        "The policy applies to Jira, Confluence, Jira Service Management, and Rovo.",
+        "Free and Standard plans have metadata and in-app data on by default.",
+        "Premium and Enterprise plans have metadata on by default.",
+        "Organizations can opt out of in-app data for all plans.",
+        "Metadata opt-out is available only on Enterprise.",
+        "Some government, healthcare, and cryptographic key management environments are excluded.",
+        "Atlassian says third-party LLM providers such as OpenAI, Anthropic, and Google are not allowed to train on customer data."
+      ],
+      "entities": [
+        "Atlassian",
+        "Jira",
+        "Confluence",
+        "Jira Service Management",
+        "Rovo",
+        "OpenAI",
+        "Anthropic",
+        "Google"
+      ],
+      "event_date": "2026-08-18",
+      "event_type": "regulation",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_8aece0306a00d09679c7",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 3,
+      "source_path": "aI_knowledge/2026/0818.md",
+      "source_ref": "aI_knowledge/2026/0818.md#3",
+      "source_urls": [
+        "https://www.atlassian.com/trust/ai/data-contribution/faqs",
+        "https://www.atlassian.com/legal/ai-terms"
+      ],
+      "status": "active",
+      "summary": "Atlassian began a new data contribution program on 2026-08-17 that uses eligible customers' metadata and in-app data to improve products and experiences across all customers, not just the originating organization. The policy applies to products including Jira, Confluence, Jira Service Management, and Rovo, with default opt-in behavior varying by plan and some environments excluded.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "Atlassian、顧客データを製品横断の改善に使う新条件を発効"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Josh Shapiro signed an executive order that excludes data center development from Pennsylvania’s fast-track permitting program.",
+        "Future data center projects are also excluded from the expedited permitting process.",
+        "Developers must comply with GRID standards.",
+        "GRID standards include paying their own power costs.",
+        "GRID standards require at least 10% clean energy.",
+        "GRID standards require water-saving technology.",
+        "GRID standards require consultation with local communities.",
+        "Pennsylvania said more than 100 data center projects are planned.",
+        "Pennsylvania said only 5 planned projects have the permits needed to operate."
+      ],
+      "entities": [
+        "Pennsylvania",
+        "Josh Shapiro",
+        "GRID standards",
+        "data centers"
+      ],
+      "event_date": "2026-08-18",
+      "event_type": "regulation",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_87b89729c6ff8091a4ab",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 2,
+      "source_path": "aI_knowledge/2026/0820.md",
+      "source_ref": "aI_knowledge/2026/0820.md#2",
+      "source_urls": [
+        "https://www.axios.com/local/pittsburgh/2026/08/18/shapiro-data-center-rules-executive-order",
+        "https://apnews.com/article/f96176c2bcb76cbe8e823ed79fbdf196",
+        "https://www.pa.gov/governor/newsroom/2026-press-releases/gov-shapiro-releases-full-grid-standards-to-protect-pennsylvania"
+      ],
+      "status": "active",
+      "summary": "Pennsylvania Governor Josh Shapiro signed an executive order removing data center development from the state’s expedited permitting process and applying the GRID standards to future projects. The standards require developers to cover their own power costs, use at least 10% clean energy, adopt water-saving technology, and consult with local communities. The state said more than 100 projects are planned, but only 5 have the permits needed to operate.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "ペンシルベニア州、AIデータセンターを迅速許認可の対象外に"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "U.S. AI-related job postings nearly doubled since 2023.",
+        "The median listed salary for AI jobs was about $177,000.",
+        "The median listed salary for non-AI jobs was about $80,000.",
+        "Women accounted for 26% of AI hires in 2025.",
+        "Women accounted for 50% of non-AI hires.",
+        "In 27 countries, women made up 13% of AI executive roles.",
+        "91% of AI workers had a bachelor’s degree or higher.",
+        "The data came from LinkedIn member career histories and job postings.",
+        "The analysis does not fully represent the overall labor market.",
+        "The analysis could not determine the cause of the gender gap."
+      ],
+      "entities": [
+        "LinkedIn",
+        "Axios",
+        "United States",
+        "27 countries",
+        "Forward Deployed Engineer"
+      ],
+      "event_date": "2026-08-18",
+      "event_type": "research",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_5aa64e482baca2433796",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 5,
+      "source_path": "aI_knowledge/2026/0819.md",
+      "source_ref": "aI_knowledge/2026/0819.md#5",
+      "source_urls": [
+        "https://news.linkedin.com/2026/new-linkedin-research-finds-women-account-for-just-26-percent-of-ai-hires-as-ai-jobs-surge",
+        "https://www.axios.com/2026/08/18/ai-women-jobs-hiring"
+      ],
+      "status": "active",
+      "summary": "LinkedIn said U.S. AI-related job postings nearly doubled since 2023, with median listed compensation around $177,000 versus about $80,000 for non-AI roles, but women made up only 26% of AI hires in 2025. In 27 countries, women accounted for 13% of AI executive roles, and 91% of AI workers had at least a bachelor’s degree.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "AI職の求人と賃金が伸びる一方、女性の採用比率は26%"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Stripe agreed to buy OpenRouter for more than $8 billion.",
+        "The reported consideration includes cash and stock.",
+        "OpenRouter is described as an AI model marketplace and routing platform.",
+        "Axios reported the deal on 2026-08-17.",
+        "Neither Stripe nor OpenRouter had commented at the time of publication.",
+        "The acquisition had not been officially announced at the time of the report.",
+        "Bloomberg also reported that the deal was signed."
+      ],
+      "entities": [
+        "Stripe",
+        "OpenRouter",
+        "Axios",
+        "Bloomberg"
+      ],
+      "event_date": "2026-08-17",
+      "event_type": "acquisition",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_f57820a875d194193692",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 2,
+      "source_path": "aI_knowledge/2026/0818.md",
+      "source_ref": "aI_knowledge/2026/0818.md#2",
+      "source_urls": [
+        "https://www.axios.com/2026/08/17/stripe-openrouter-paypal"
+      ],
+      "status": "active",
+      "summary": "Axios reported that Stripe has agreed to acquire OpenRouter, an AI model marketplace and routing platform, for more than $8 billion in cash and stock. The report also said Bloomberg covered the deal, but neither company had commented and no official announcement had been made at the time of publication.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "Stripe、OpenRouterを80億ドル超で買収合意との報道"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "OpenAI announced a 20-year capacity lease agreement for an AI data center in central Ohio.",
+        "The data center will be built and owned by SB Energy, a SoftBank subsidiary.",
+        "Axios reported the project is planned at 8GW of IT load.",
+        "Axios reported the project would require about 10GW of power.",
+        "The initial operations are planned for 2028.",
+        "NVIDIA is reported to guarantee part of the contractual payments.",
+        "OpenAI said the project could create about 35,000 construction jobs.",
+        "OpenAI said the project could create about 2,500 permanent operational jobs."
+      ],
+      "entities": [
+        "OpenAI",
+        "SB Energy",
+        "SoftBank",
+        "NVIDIA",
+        "Ohio"
+      ],
+      "event_date": "2026-08-17",
+      "event_type": "partnership",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_a81d8e7e7b741b526c77",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 1,
+      "source_path": "aI_knowledge/2026/0818.md",
+      "source_ref": "aI_knowledge/2026/0818.md#1",
+      "source_urls": [
+        "https://www.axios.com/2026/08/17/openai-nvidia-ohio-data-center-sb-energy",
+        "https://openai.com/index/stargate-sb-energy-partnership/"
+      ],
+      "status": "active",
+      "summary": "OpenAI announced a 20-year capacity lease for an AI data center to be built and owned by SB Energy, a SoftBank subsidiary, in central Ohio. The plan is described as an 8GW IT-load project, with about 10GW of required power, an initial start date in 2028, and NVIDIA reportedly guaranteeing part of the contractual payments. OpenAI said it expects about 35,000 construction jobs and 2,500 ongoing operational jobs.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "OpenAI、オハイオ州で8GW級AIデータセンターの20年契約を発表"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Sophos made Sophos Fusion generally available on 2026-08-15.",
+        "Sophos Fusion includes a Next-Gen SIEM.",
+        "Sophos Fusion’s XDR incorporates Secureworks Taegis analytics.",
+        "Sophos expanded its AI-enabled MDR in the release.",
+        "Sophos Fusion aggregates signals from endpoints, identity, network, email, and cloud into a common data layer.",
+        "The system uses agentic AI to investigate and respond within human-defined boundaries.",
+        "Sophos stated that 52% of cases are resolved by AI alone.",
+        "Sophos stated that average time to automated response is 89 seconds."
+      ],
+      "entities": [
+        "Sophos",
+        "Sophos Fusion",
+        "Next-Gen SIEM",
+        "XDR",
+        "MDR",
+        "Secureworks Taegis",
+        "SOC"
+      ],
+      "event_date": "2026-08-16",
+      "event_type": "product_release",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_504be117a750fe33dda4",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 1,
+      "source_path": "aI_knowledge/2026/0816.md",
+      "source_ref": "aI_knowledge/2026/0816.md#1",
+      "source_urls": [
+        "https://www.sophos.com/en-us/press/press-releases/2026/07/sophos-fusion-ai-native-cybersecurity-defense-system",
+        "https://www.sophos.com/en-us/blog/sophos-fusion"
+      ],
+      "status": "active",
+      "summary": "Sophos announced general availability of Sophos Fusion on August 15, including a Next-Gen SIEM, an XDR platform incorporating Secureworks Taegis analytics, and an expanded AI-enabled MDR. The company says the system unifies signals from endpoints, identity, network, email, and cloud into a common data layer, with agentic AI operating within human-defined boundaries for investigation and response.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "Sophos、エージェントAI統合型のSIEM・XDR・MDRを一般提供"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Relay.app will end free accounts at 23:59 Pacific Time on 2026-08-15.",
+        "Relay.app will delete related data for free accounts.",
+        "Paying users can use Relay.app until 2026-09-14.",
+        "Users can export workflows, Sequences, MCP servers, AI prompts, run history, and tables."
+      ],
+      "entities": [
+        "Relay.app",
+        "MCP",
+        "Sequences"
+      ],
+      "event_date": "2026-08-16",
+      "event_type": "pricing",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_1388c456eab434dbcfdf",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 2,
+      "source_path": "aI_knowledge/2026/0816.md",
+      "source_ref": "aI_knowledge/2026/0816.md#2",
+      "source_urls": [
+        "https://www.relay.app/"
+      ],
+      "status": "active",
+      "summary": "Relay.app said it will end free accounts at 23:59 PT on August 15 and delete related data. Paying users can continue using the service until September 14. The company also provided export options for workflows, Sequences, MCP servers, AI prompts, run history, and tables.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "AIワークフロー基盤Relay.app、無料版を終了"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "クラウドPBX「INNOVERA」の通話録音にAI要約が追加された",
+        "クラウドPBX「INNOVERA」の通話録音にタスク抽出が追加された",
+        "提供開始日は2026年8月14日である",
+        "個人別の通話履歴管理機能「MyLog」が同時に導入された"
+      ],
+      "entities": [
+        "プロディライト",
+        "INNOVERA",
+        "MyLog",
+        "PR TIMES"
+      ],
+      "event_date": "2026-08-15",
+      "event_type": "product_release",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_f2449b548763112e8b81",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 3,
+      "source_path": "aI_knowledge/2026/0815.md",
+      "source_ref": "aI_knowledge/2026/0815.md#3",
+      "source_urls": [
+        "https://prtimes.jp/main/html/rd/p/000000204.000144252.html"
+      ],
+      "status": "active",
+      "summary": "プロディライトは、クラウドPBX「INNOVERA」の通話録音にAI要約とタスク抽出を追加し、2026年8月14日に提供を開始した。あわせて個人別の通話履歴管理機能「MyLog」も導入した。",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "国内クラウドPBXで通話要約・タスク抽出が実運用へ"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "OpenAI's GPT-5.6 Luna saw a significant price reduction.",
+        "Anthropic's new model(s) were also lowered in price.",
+        "Financial Times reported that major U.S. AI companies are entering a price competition.",
+        "The competition is influenced in part by low-cost Chinese models.",
+        "Model performance gaps are narrowing.",
+        "Lower-cost task processing can affect adoption decisions.",
+        "AI procurement may need joint management by finance, operations, and security teams.",
+        "AI FinOps may become necessary for managing task-level cost and quality.",
+        "Model routers and periodic benchmark updates may become standard practice."
+      ],
+      "entities": [
+        "OpenAI",
+        "GPT-5.6 Luna",
+        "Anthropic",
+        "Financial Times",
+        "OpenAI (blog post)",
+        "Chinese AI models"
+      ],
+      "event_date": "2026-08-15",
+      "event_type": "pricing",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_bba4321e2ebfd784328a",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 2,
+      "source_path": "aI_knowledge/2026/0815.md",
+      "source_ref": "aI_knowledge/2026/0815.md#2",
+      "source_urls": [
+        "https://www.ft.com/content/32a70a3c-7d28-40b4-808e-36edb58c7d01",
+        "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/"
+      ],
+      "status": "active",
+      "summary": "Financial Times reported that OpenAI's GPT-5.6 Luna and Anthropic's newer models have been sharply discounted, signaling intensified price competition among major U.S. AI companies, including pressure from low-cost Chinese models. The item suggests organizations may need to compare quality, speed, and price by task rather than rely on a single model.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "OpenAIとAnthropicの価格競争が本格化"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Oracleは一部チームで2桁比率の追加削減を検討している。",
+        "管理職に削減対象者の選定を求めたと報じられている。",
+        "Oracleは前年度に約2万1,000人を削減した。",
+        "OracleはAIデータセンター建設のため大規模な借入と設備投資を進めている。",
+        "追加削減計画は匿名情報源に基づく報道であり、Oracleは確認していない。"
+      ],
+      "entities": [
+        "Oracle",
+        "Business Insider",
+        "Tom's Hardware"
+      ],
+      "event_date": "2026-08-15",
+      "event_type": "organization_change",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_b636a7545d3abfd42a7e",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 5,
+      "source_path": "aI_knowledge/2026/0815.md",
+      "source_ref": "aI_knowledge/2026/0815.md#5",
+      "source_urls": [
+        "https://www.tomshardware.com/tech-industry/oracle-plans-more-layoffs-weeks-after-spending-most-of-its-2-1-billion-restructuring-budget",
+        "https://investor.oracle.com/sec-filings/"
+      ],
+      "status": "active",
+      "summary": "報道によると、OracleはAIデータセンター建設などの投資を進める一方で、一部チームで追加の人員削減を検討している。追加削減は匿名情報源に基づくもので、Oracleは確認していない。",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "Oracle、AIインフラ投資と並行して追加人員削減を計画との報道"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "Anthropic's latest risk report led to reporting that the company will not externally release its internal model 'Model 2' at this time.",
+        "Model 2 is described as surpassing Anthropic's highest-tier public model.",
+        "Anthropic uses Model 2 internally for coding, agent work, and data generation.",
+        "The report suggests that capability evaluations may be less able to capture performance improvements.",
+        "The report emphasizes the importance of pre-release evaluation, access control, and usage restrictions."
+      ],
+      "entities": [
+        "Anthropic",
+        "Model 2",
+        "Axios",
+        "Anthropic Transparency Hub"
+      ],
+      "event_date": "2026-08-15",
+      "event_type": "product_release",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_3565e8b266c620929c7b",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 1,
+      "source_path": "aI_knowledge/2026/0815.md",
+      "source_ref": "aI_knowledge/2026/0815.md#1",
+      "source_urls": [
+        "https://www.axios.com/2026/08/14/anthropic-model-2-ai-risk",
+        "https://www.anthropic.com/transparency/model-report"
+      ],
+      "status": "active",
+      "summary": "Anthropic reportedly will not publicly release its internal model 'Model 2' for now, despite it being described as outperforming the company's top public model. The model is being used internally for coding, agent tasks, and data generation, and the report highlights growing importance of pre-release evaluation, access controls, and use restrictions.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "Anthropic、社内モデル「Model 2」を外部公開しない方針"
+    },
+    {
+      "automatic_action_applied": false,
+      "claims": [
+        "A new study analyzed more than 1,500 organizations.",
+        "The study analyzed over 17 million ChatGPT Enterprise messages under privacy protections.",
+        "ChatGPT Enterprise was used across job functions and seniority levels within adopting companies.",
+        "Younger employees showed higher usage intensity.",
+        "Reported use cases included writing, technical work, communication, and information synthesis.",
+        "The study suggests AI usage is spreading across knowledge work rather than being limited to specialized roles.",
+        "There is substantial variation across companies in adoption speed, scope, and purpose.",
+        "The item is a preprint and has not necessarily undergone peer review."
+      ],
+      "entities": [
+        "ChatGPT Enterprise",
+        "arXiv",
+        "How Organizations Use AI: Evidence from ChatGPT"
+      ],
+      "event_date": "2026-08-15",
+      "event_type": "research",
+      "extraction_model": "gpt-5.4-mini",
+      "id": "news_2977c31218edc6a0b07f",
+      "processed_at": "2026-08-23T06:39:25+00:00",
+      "relation": "new",
+      "relation_confidence": 1.0,
+      "relation_reason": "No active item exceeded the semantic candidate threshold.",
+      "relation_target": null,
+      "source_index": 4,
+      "source_path": "aI_knowledge/2026/0815.md",
+      "source_ref": "aI_knowledge/2026/0815.md#4",
+      "source_urls": [
+        "https://arxiv.org/abs/2608.12236"
+      ],
+      "status": "active",
+      "summary": "A preprint study analyzing over 17 million ChatGPT Enterprise messages across more than 1,500 organizations found broad use across job functions and seniority levels, with younger employees showing higher usage intensity. The study reports diverse use cases including writing, technical work, communication, and information synthesis, while noting large variation across companies in adoption speed, scope, and purpose.",
+      "superseded_by": null,
+      "supersedes": [],
+      "title": "企業AI利用の大規模分析、若手ほど利用強度が高い"
+    }
+  ]
+}
