@@ -1,0 +1,72 @@
+name: Answer knowledge question
+
+on:
+  issues:
+    types: [opened, edited, reopened]
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: knowledge-question-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  answer:
+    if: >-
+      (github.event_name == 'issues' &&
+       contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association) &&
+       (contains(github.event.issue.labels.*.name, 'knowledge-question') ||
+        startsWith(github.event.issue.title, '[Knowledge]'))) ||
+      (github.event_name == 'issue_comment' &&
+       !github.event.issue.pull_request &&
+       github.event.comment.user.type != 'Bot' &&
+       contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association) &&
+       startsWith(github.event.comment.body, '/ask') &&
+       (contains(github.event.issue.labels.*.name, 'knowledge-question') ||
+        startsWith(github.event.issue.title, '[Knowledge]')))
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Generate grounded answer
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          RAG_MODEL: ${{ vars.RAG_MODEL || vars.OPENAI_MODEL || 'gpt-5.4-mini' }}
+          OPENAI_EMBEDDING_MODEL: ${{ vars.OPENAI_EMBEDDING_MODEL || 'text-embedding-3-small' }}
+          OPENAI_EMBEDDING_DIMENSIONS: ${{ vars.OPENAI_EMBEDDING_DIMENSIONS || '256' }}
+          RAG_TOP_K: ${{ vars.RAG_TOP_K || '8' }}
+        run: >-
+          python scripts/answer_question.py
+          --event "$GITHUB_EVENT_PATH"
+          --output "$RUNNER_TEMP/knowledge-answer.md"
+
+      - name: Post answer to issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+          ANSWER_PATH: ${{ runner.temp }}/knowledge-answer.md
+        run: gh issue comment "$ISSUE_URL" --body-file "$ANSWER_PATH"
+
+      - name: Report answer failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: >-
+          gh issue comment "$ISSUE_URL"
+          --body "ナレッジ回答の生成に失敗しました。詳細: $RUN_URL"

@@ -23,8 +23,8 @@ Markdownだけをコミットして `origin/main` へ直接プッシュします
 
 ## Phase 1: 最新ナレッジの判定
 
-`main` に日次Markdownが追加されると、GitHub Actionsの
-`Update news knowledge index` が次を実行します。
+毎週日曜9:17（Asia/Tokyo）に、GitHub Actionsの
+`Update news knowledge index` が次を実行します。Actions画面からの手動実行も可能です。
 
 1. Markdownをニュース項目単位に分割
 2. OpenAI APIで要約、エンティティ、主張を構造化
@@ -60,5 +60,35 @@ APIキーはRepository Variableやソースコードには保存しないでく�
 | `CANDIDATE_THRESHOLD` | `0.65` | LLM判定へ進める候補類似度 |
 | `AUTO_SUPERSEDE_CONFIDENCE` | `0.90` | 旧項目を自動無効化する最低確信度 |
 
-初回実行時は既存の全Markdownをインデックス化します。以後は未処理または変更された
-ニュース項目だけを処理します。手動実行はGitHubの `Actions` 画面から行えます。
+初回実行時は既存の全Markdownをインデックス化します。以後は週次実行時に、未処理または
+変更されたニュース項目だけを処理します。
+
+## Phase 2: GitHub IssueからのRAG質問
+
+Issue作成画面で「ナレッジへの質問」テンプレートを選び、質問を投稿してください。
+`knowledge-question` ラベルまたは `[Knowledge]` で始まるタイトルを持つIssueに対して、
+`Answer knowledge question` Actionsが次を実行します。
+
+1. 質問をEmbedding化
+2. `knowledge/latest.json` の有効ナレッジだけを横断検索
+3. 類似度上位のナレッジをLLMへ提示
+4. ナレッジだけを根拠に回答を生成
+5. 元Markdownと原典URL付きでIssueへコメント
+
+回答後の追加質問は、同じIssueへ次の形式でコメントしてください。
+
+```text
+/ask 追加の質問内容
+```
+
+通常のコメントではActionsは起動しません。回答に必要な情報が有効ナレッジ内にない場合は、
+外部知識で補完せず、情報不足であることを回答します。APIの不正利用を防ぐため、回答を
+起動できるのはリポジトリのOwner、Member、Collaboratorが投稿した質問に限定しています。
+
+RAGでは既存の `OPENAI_API_KEY`、`OPENAI_EMBEDDING_MODEL`、
+`OPENAI_EMBEDDING_DIMENSIONS` を共用します。次のRepository Variablesを任意設定できます。
+
+| 名前 | 既定値 | 用途 |
+| --- | --- | --- |
+| `RAG_MODEL` | `OPENAI_MODEL` または `gpt-5.4-mini` | 回答生成モデル |
+| `RAG_TOP_K` | `8` | 回答生成へ渡す有効ナレッジ件数 |

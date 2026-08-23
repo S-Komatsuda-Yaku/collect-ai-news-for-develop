@@ -128,7 +128,7 @@ class OpenAIClient:
         self.api_key = os.environ.get("OPENAI_API_KEY", "").strip()
         if not self.api_key:
             raise RuntimeError(
-                "OPENAI_API_KEY is required when unprocessed news items exist. "
+                "OPENAI_API_KEY is required for OpenAI API calls. "
                 "Add it as a GitHub Actions repository secret."
             )
         self.base_url = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1").rstrip("/")

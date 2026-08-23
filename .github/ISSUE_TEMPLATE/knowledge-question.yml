@@ -1,0 +1,26 @@
+name: ナレッジへの質問
+description: 収集済みのAIニュースを横断検索して回答します
+title: "[Knowledge] "
+labels:
+  - knowledge-question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        収集済みの有効なナレッジだけを根拠として回答します。
+        回答後に追加質問する場合は、コメントを `/ask 質問内容` で始めてください。
+  - type: textarea
+    id: question
+    attributes:
+      label: 質問
+      description: 知りたいことを具体的に記載してください。
+      placeholder: 直近のAIエージェント基盤の変化と、開発組織への影響を整理してください。
+    validations:
+      required: true
+  - type: textarea
+    id: expectations
+    attributes:
+      label: 回答で重視してほしい点
+      description: 比較軸、対象期間、想定読者などがあれば記載してください。
+    validations:
+      required: false

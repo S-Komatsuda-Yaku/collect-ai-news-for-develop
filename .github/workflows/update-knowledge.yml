@@ -1,10 +1,9 @@
 name: Update news knowledge index
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "aI_knowledge/**/*.md"
+  schedule:
+    - cron: "17 9 * * 0"
+      timezone: "Asia/Tokyo"
   workflow_dispatch:
 
 permissions:
